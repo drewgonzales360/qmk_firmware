@@ -30,3 +30,4 @@ For more information, please refer to <http://unlicense.org/>
 // #define USE_I2C
 #define EE_HANDS
 #define TAPPING_TOGGLE 2
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD

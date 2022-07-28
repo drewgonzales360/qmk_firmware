@@ -10,3 +10,7 @@ I used https://jhelvy.shinyapps.io/qmkjsonconverter/ to go from the qmk layout j
 qmk compile -kb keebio/iris/rev6 -km drewgonzales360
 qmk flash -kb keebio/iris/rev6 -km drewgonzales360
 ```
+
+## Notes
+Oh. You do have access to the OS.
+https://github.com/rafaelromao/keyboards/blob/main/src/qmk/users/rafaelromao/features/window_swapper.c#L10
