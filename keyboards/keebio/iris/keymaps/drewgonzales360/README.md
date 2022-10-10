@@ -7,6 +7,7 @@ I used https://jhelvy.shinyapps.io/qmkjsonconverter/ to go from the qmk layout j
 ## Building
 
 ```
+python3 json-to-c.py | pbc
 qmk compile -kb keebio/iris/rev6 -km drewgonzales360
 qmk flash -kb keebio/iris/rev6 -km drewgonzales360
 ```
